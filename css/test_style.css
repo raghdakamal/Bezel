@@ -1,0 +1,653 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+	height: 100%;
+	padding: 0;
+    margin: 0;
+	position: relative;
+}
+.navigation{
+	z-index: 1;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+.navbar
+{
+    margin: 0px;
+    padding: 0px;
+}
+.logo img
+{
+   height: 40px;
+}
+.collapse{
+	float: right;
+}
+.navbar-brand
+{
+    font-size: 13px;
+    font-weight: 500;
+}
+.navbar-nav ul
+{
+    list-style: none;
+}
+.nav-item a
+{
+	margin-left: 20px;
+    text-decoration: none;
+   	color: white;
+}
+.social_links{
+	border-left: 1px solid rgba(255,255,255,0.50);
+    margin-left: 10px;
+}
+.social_icon .fab
+{
+	margin-left: 20px;
+    color: white;
+}
+
+.seprator{
+	position: relative;
+	z-index: 2;
+    border-bottom: 1px solid rgba(255,255,255,0.30);
+}
+.carousel{
+	margin: 0px;
+	padding: 0px;
+	margin-top: -85px;
+	z-index: 0;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 25%;
+}
+.carousel-caption h1
+{
+    font-weight: 600;
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+.carousel-caption h4
+{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.carousel-indicators
+{
+    padding-top: 0%;
+}
+.btns .btn3
+{
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.btn-color
+{
+    background-color:  #00c3da;
+}
+.btn-light-out
+{
+     border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+.slide2
+{
+    position: relative;
+   
+}
+
+.main
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+    border-bottom:1px solid #eee;
+}
+.know h6
+{
+    color: #444444;
+}
+.know p
+{
+  padding-left: 150px;
+    padding-right:150px;
+    font-size: 25px;
+    color: #777777;
+    font-weight: 200;
+    position: relative;
+    padding-bottom: 30px;
+   
+}
+.test1:after
+{
+    content: "| ";
+    position: absolute;
+    animation-name: typing;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    color: #00c3da !important;
+    font-weight: 400;
+}
+@keyframes typing
+{
+    1% {content: "a |"}
+     5% {content: "ap |"}
+    10% {content: "app |"}
+    15% {content: "apps |"} 
+    20% {content: "app |"}
+    25% {content: "ap |"}
+     30% {content: "a |"}
+    35% {content: "w |"}
+    40% {content: "we |"}
+    45% {content: "web |"}
+    50% {content: "webs |"}
+    55% {content: "websi |"}
+    60% {content: "websit |"}
+     65% {content: "website |"}
+     70% {content: "websites |"}
+     75% {content: "website |"}
+     80% {content: "websit |"}
+     85% {content: "websi |"}
+     90% {content: "webs |"}
+     95% {content: "web |"}
+     100% {content: "we |"}
+    105% {content: "w |"}
+     110% {content: "|"}
+     
+}
+.bt
+{
+    padding-bottom: 50px;
+}
+.btn
+{
+    padding: 15px 25px;
+    background-color: white;
+    border-color: #dedede;  
+   color:  #1f1f1f;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.btn:hover
+{
+      background-color: #222222;
+    color: white;
+}
+.tab-test .nav
+{
+
+    padding-left: 10px;
+}
+.tab-test .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link
+{
+      color: #444444;
+      font-size: 13px;
+      font-weight: 600;  
+}
+
+.tab-test
+{
+  border-top:1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.tab-test .test p
+{
+   padding-left: 50px;
+    padding-right: 30px;
+}
+.tab-test .bt
+{
+    
+    padding-left: 50px;
+    
+}
+.tab-test .btn
+{
+    padding: 15px 25px;
+    background-color: white;
+    border-color: #dedede;  
+   color:  #1f1f1f;
+    font-size: 10px;
+    font-weight: 700;
+
+}
+.tab-test .btn:hover
+{
+      background-color: #222222;
+    color: white;
+}
+.tab-test .image img
+{
+    width: 100%;
+}
+.team
+{
+   
+    margin-bottom: 90px;
+}
+.title
+{
+    margin-bottom: 20px;
+    position: relative;
+     z-index: 10;
+}
+.title h2
+{
+     color:  #1f1f1f;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.title h2:before
+{
+    position: relative;
+    content: "C";
+    text-align: center;
+    left: 13%;
+    font-size:80px;
+    z-index: -1;
+    opacity: 0.06;
+    text-transform: uppercase;
+}
+.title p
+{
+    color: #787878;
+    text-align: center;
+    padding-left: 10px;
+}
+.member
+{
+    overflow: auto;
+}
+.image
+{
+   overflow: hidden;
+    position: relative;
+}
+.image img
+{
+    width: 100%;
+   
+}
+.caption
+{
+    position: absolute;
+    transition: all 1s;
+    background-color: rgba(0, 195, 218, 0.9);  
+     width: 100%;
+    height: 100%;
+    top: 100%;
+}
+.image:hover .caption
+{
+  
+    opacity: 0.5;
+      top: 0%;
+}
+.icons
+{
+    color: white;
+    overflow: auto;
+}
+.icons ul
+{
+    list-style: none;
+}
+.icons ul li
+{
+    float: left;
+    padding-right: 8px;
+}
+.info
+{
+    color: white;
+    padding-top:150px;
+   
+}
+.info h5
+{
+   font-size: 13px;
+}
+.info p
+{
+    font-size: 12px;
+}
+.serv
+{
+    background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7),
+	  rgba(0, 0, 0, 0.7)
+    ),
+   url(../imgs/asset%2048.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.serv_about
+{
+    
+    padding-right: 70px;
+}
+.serv_about h2
+{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+   
+}
+.servcol1,.servcol2
+{
+    padding-top: 60px;
+}
+.servcol1 h4,.servcol2 h4
+{
+    font-size: 15px;
+    
+}
+.tab1
+{
+    color: white;
+}
+.title 
+{
+     overflow: auto;
+    position: relative;
+}
+.work .title h2:before
+{
+    
+    content: "O";
+    text-align: center;
+    left: 9%;
+    font-size:80px;
+    z-index: -1;
+    opacity: 0.06;
+    text-transform: uppercase;
+   
+}
+.line
+{
+    border-bottom: 1px solid black;
+    width: 10%;
+    position: absolute;
+    left:47%;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link
+{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+    
+    border-color: #00c3da;
+    border-radius: 50px;
+    padding: 8px 20px;
+    color: #00c3da;
+
+}
+.nav-tabs
+{
+    border-bottom: none !important;
+}
+.coltest
+{
+    overflow: auto;
+}
+.image1
+{
+    overflow: hidden;
+    position: relative;
+}
+.image1 img
+{
+    width: 100%;
+    transition: all 0.5s ;
+}
+.image1:hover img
+{
+    transform:  scale(1.2);
+}
+.overlay
+{
+    position: absolute;
+    transition: all 1s;
+    background-color: white;  
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 30px;
+    top: 100%;
+    text-align: center;
+    
+}
+.image1:hover .overlay
+{
+   
+    top: 60%;
+    transform: scale(1.1);
+}
+.package
+{
+    
+    background-color: #eee;
+}
+.box1,.box2,.box3,.box4
+{
+    border: 2px solid #f6f6f6;
+    border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+   
+}
+
+.bttn
+{
+    padding-bottom: 30px;
+}
+
+.btn1
+{ 
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #00c3da;
+    
+}
+.item 
+{
+    border-bottom: 1px solid #eee;
+}
+.item h3
+{
+    color: #444444;
+    font-weight: 300;
+    font-size: 35px;
+    padding-top: 10px;
+        
+}
+.item p
+{
+    color: #777777;
+}
+.price
+{
+  color:  #444444;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  border-bottom: 1px solid #eee;
+}
+.pricelist ul
+{
+    padding-top: 40px;
+     padding-bottom: 40px;
+    list-style:none;
+}
+.pricelist li
+{
+    color: #777777;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.brands
+{
+    padding-bottom: 50px;
+}
+.brand
+{
+    max-width: 400px;
+    line-height: 70px;
+    display: block;
+    padding-bottom: 20px;
+}
+.brand img
+{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+.brand:hover img
+{
+    opacity: 1;
+}
+.customer
+{
+    background-color: #eee;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.cust_box
+{
+    border-radius: 10px;
+   
+    
+}
+.cust_info
+{
+     text-align: center;
+    background-color: white;
+}
+.cust_box img
+{
+position: relative;
+    border-radius: 50%;
+    height: 120px;
+    top: 50px;
+    left: 42%;
+}
+ .cust_info h3
+{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.cust_info h6
+{
+   color: #777777; 
+}
+
+.cust_info p
+{
+    padding-top: 40px;
+    color: #777777;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.carousel-indicators
+{
+   padding-top: 10px;
+}
+.carousel-indicators li
+{
+    background-color:#4fb8aa !important;
+    border-radius: 50%!important;
+    border: 2px solid transparent;
+        height: 12px;
+    width: 12px;
+    cursor: pointer; 
+}
+.footer
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+.footer-logo img
+{
+    widows: 150px;
+}
+.contcol h5
+{
+    font-size:15px;
+}
+.menu-footer ul
+{
+    list-style: none;
+}
+.menu-footer ul li
+{
+ padding: 5px;
+}
+.menu-footer ul li a
+{
+  text-decoration: none;
+    color: black;
+}
+.menu-footer ul li:hover a
+{
+ color:  #337ab7;
+}
+.tagcloud a 
+{
+    border-color: #c5c5c5;
+    display: block;
+    float: left;
+    padding: 8px 10px;
+    border: 1px solid #858585;
+    margin: 0 10px 10px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all .3s ease;
+    font-weight: 600;
+        color: #5f5f5f;
+    text-decoration: none;
+}
+.tagcloud a:hover
+{
+    background-color:#00c3da; 
+    color: white;
+     border: 1px solid #fff;
+}
+    
+
+
